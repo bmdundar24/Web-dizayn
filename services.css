@@ -136,3 +136,41 @@ textarea{
     resize: none;
     width: 90%;
 }
+@media (max-width: 420px){
+    .container{
+        height: auto;
+    }
+   .main{
+       display: none;
+   }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe{
+        flex-direction: column;
+    }
+
+    .footer{
+        height: 70px;
+    }
+    .footer p{
+        left: 30%;
+        top: 15%;
+        left: 50%;
+
+        text-align: center;
+    }
+    .aboutmain{
+        flex-direction: column;
+    }
+    .rightaboutmain{
+        margin: 0;
+        width: 100%;
+    }
+    .rightaboutmain h4{
+        text-align: center;
+    }
+}
