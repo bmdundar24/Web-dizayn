@@ -176,3 +176,38 @@
 #home2{
     color: purple;
 }
+@media (max-width: 420px){
+    .container{
+        height: auto;
+    }
+   .main{
+       display: none;
+   }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .maintext h1{
+        font-size: 15px;
+    }
+    .maintext p{
+        font-size: 10px;
+    }
+    .subscribe{
+        flex-direction: column;
+    }
+    .logosection{
+        flex-direction: column;
+    }
+    .footer{
+        height: 70px;
+    }
+    .footer p{
+        left: 30%;
+        top: 15%;
+        left: 50%;
+
+        text-align: center;
+    }
+}
